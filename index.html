@@ -8,7 +8,7 @@
 </head>
 <body>
   <div class="login-box">
-    <img src="assets/delta-logo.png" class="logo" alt="Delta Logo" />
+    <<img src="assets/delta-logo.png" alt="Delta Logo" class="logo">
     <h2>Login to Delta Executor</h2>
     <form id="loginForm">
       <input type="text" id="username" placeholder="Roblox Username" required /><br />
@@ -48,10 +48,6 @@
         }
       }).catch(error => {
         alert("Ralat: " + error.message);
-        }).then(() => {
-        alert("Login successful! Download starting...");
-        /https://www.mediafire.com/file/trdg6l96vayoza9/Delta-2.681.805.ipa/file
-        window.location.href =
       });
     });
   </script>
